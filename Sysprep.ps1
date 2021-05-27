@@ -28,6 +28,8 @@ Set-DnsClientServerAddress –InterfaceAlias $if -ServerAddresses ($dns1, $dns2)
 New-NetIPAddress -InterfaceAlias $if -AddressFamily IPv4 -IPAddress $ip -PrefixLength $pf -DefaultGateway $gw
 
 
+fghjkl
+
 #ADD TO DOMAIN
 Add-Computer -DomainName schneider-gruppe.net -Credential Schneider\Administrator -Restart -Force
 
